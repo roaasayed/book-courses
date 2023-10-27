@@ -1,0 +1,45 @@
+<mat-card>
+    <mat-card-content>المورد متاح إلى</mat-card-content>
+
+    <mat-form-field id="month">
+        <mat-label>شهر</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let month of months" [value]="month">{{month}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+
+
+
+    <section class="example-section">
+      <div>
+        <span>وقت المورد</span>
+        <mat-radio-group aria-label="Select an option">
+          <!-- <mat-radio-button value="1">Option 1</mat-radio-button> -->
+          <!-- <mat-radio-button value="2">Option 2</mat-radio-button> -->
+        </mat-radio-group>
+        <mat-checkbox class="example-margin">وقت الخدمة</mat-checkbox>
+        <mat-checkbox class="example-margin">الوقت الثابت</mat-checkbox>
+        <!-- <div id="counter"> 
+            <button>-</button>
+            <button>+</button>
+        </div> -->
+      </div>
+      <div>
+        <span>الحجز المتعدد</span>
+        <mat-checkbox class="example-margin">حجز واحد فقط</mat-checkbox>
+        <mat-checkbox class="example-margin">حجز أكثر من شخص لنفس الموعد</mat-checkbox>
+
+       
+
+
+      </div>
+    
+    </section>
+    
+
+</mat-card>
+
+
+
+
+

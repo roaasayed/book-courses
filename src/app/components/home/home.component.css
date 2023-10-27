@@ -1,0 +1,24 @@
+mat-card{
+    /* color: beige; */
+    height:70px ;
+    direction: rtl;
+    display: flow-root;
+    margin-top: 20px;
+}
+#days{
+    margin-top: 20px;
+}
+.start{
+    margin-left: 550px;
+    margin-top: 18px;
+}
+.end{
+    margin-left: 260px;
+    margin-top: -27px;
+    
+}
+.sunday{
+    margin-top: -36px;
+    float: left;
+
+}

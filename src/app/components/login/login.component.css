@@ -1,0 +1,20 @@
+mat-card {
+    background-color: beige;
+    height: 250px;
+    text-align: right;
+}
+.example-section {
+    margin: 12px 0;
+  }
+  
+  .example-margin {
+    margin: 0 12px;
+    border-radius: 50%;
+  }
+  #bookin{
+    direction: rtl;
+  }
+  .example-form-field{
+    direction: rtl;
+    right: 20px;
+  }
