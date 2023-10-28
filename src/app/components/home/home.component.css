@@ -1,8 +1,11 @@
+#parent{
+    display: flow-root;
+
+}
 mat-card{
     /* color: beige; */
     height:70px ;
     direction: rtl;
-    display: flow-root;
     margin-top: 20px;
 }
 #days{
@@ -11,14 +14,24 @@ mat-card{
 .start{
     margin-left: 550px;
     margin-top: 18px;
+    position: absolute;
+    left: 420px;
 }
 .end{
     margin-left: 260px;
-    margin-top: -27px;
+    margin-top: 18px;
+    position: absolute;
+    left: 360px;
     
 }
 .sunday{
-    margin-top: -36px;
-    float: left;
+    margin-top: 7px;
+    
+    position: absolute;
+    left: 35px;
 
+}
+.child{
+    position: relative;
+    
 }

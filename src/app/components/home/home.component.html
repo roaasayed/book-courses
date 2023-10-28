@@ -1,4 +1,4 @@
-<mat-card id="" class="container">
+<mat-card id="parent" class="container">
   <section class="float-right">
     <mat-card-content>حدد مواعيد العمل للمورد</mat-card-content>
     <p>تكوين اعدادات الاسبوع الخاصه بك</p>
@@ -20,20 +20,20 @@
   </div>
 </mat-card>
 
-<mat-card class="container  ">
-  <div id="days" class="float-right">
+<mat-card class="child container ">
+  <div id="days" class="">
     <mat-slide-toggle></mat-slide-toggle>
     <span class="example-label">الاحد</span>
   </div>
-  <div class="start">وقت البدء
+  <div class="start ">وقت البدء
     <input [ngxTimepicker]="picker">
     <ngx-material-timepicker #picker></ngx-material-timepicker>
   </div>
-  <div class="end">وقت الانتهاء
+  <div class="end ">وقت الانتهاء
     <input [ngxTimepicker]="picker">
     <ngx-material-timepicker #picker></ngx-material-timepicker>
   </div>
-  <div class="example-button-container sunday float-left ">
+  <div class="example-button-container sunday  ">
     <button mat-fab color="primary" aria-label="Example icon button with a bookmark icon">
       <mat-icon>bookmark</mat-icon>
     </button>
